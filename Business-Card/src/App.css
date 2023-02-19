@@ -1,0 +1,147 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.dog{
+ 
+    width: 350px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.App{
+    margin-left: 65px;
+    margin-top: 53px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: aliceblue;
+    width: 350px;
+
+    grid-template-rows: 40% 50% 10%;
+
+}
+
+.content{
+
+
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter', sans-serif;
+    background: #1A1B21;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header > h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.header > h5{
+    line-height: 15px;
+    text-align: center;
+    
+    color: #F3BF99;
+}
+
+button{
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    margin: .5rem;
+
+    width: 115px;
+    height: 34px;
+
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+
+.email{
+    color: #374151;
+    font-weight: 500;
+    font-size: 14px;
+}
+.LinkedIn{
+    background-color: #5093E2;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+a{
+    text-decoration: none;
+}
+.email:hover, .LinkedIn:hover{
+    transform: scale(1.05);
+}
+
+button > img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.buttonContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About>h1, .Interests > h1{
+
+    font-weight: bolder;
+    font-size: 18px;
+    color: #F5F5F5;
+}
+
+.About, .Interests {
+    margin-top: 1rem;
+}
+
+.About>p , .Interests > p{
+    margin-top: .25rem;
+    font-size: 15px;
+    color: #DCDCDC;
+}
+
+footer{
+    width: 350px;
+    height: 100%;
+    background: #95959b;
+    border-radius: 0px 0px 10px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > img{
+    width: 30px;
+    height: 30px;
+    margin: 0 1rem;
+}
+footer > img:hover{
+    transform: scale(1.03);
+}
